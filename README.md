@@ -1,5 +1,7 @@
 # ジャポニスム 前と後
 
+[English](README.en.md)
+
 **▶ [作品を開く](https://lanni007.github.io/japonisme-universe/)**
 
 日本の美が海を渡り、世界の芸術や文化に影響を与え、日本へ帰ってくる流れをたどる、3Dの関連図です。前史と出島の貿易から、印象派、アール・ヌーヴォー、戦後の映画とアニメまでをつないでいます。
@@ -39,6 +41,7 @@ This project is not affiliated with or endorsed by Yusuke Narita, and does not r
 ## ファイル
 
 - `index.html`：作品本体。ビルド不要の静的HTML。
+- `README.en.md`：英語版の説明と操作案内。
 - `IMAGE-CREDITS.md`：画像49点の原資料・制作者・ライセンスと戦後映画の出典。
 - `CREDITS.md`：着想・参考資料・使用ライブラリとフォント。
 - `LICENSE`：プログラムのMIT License。

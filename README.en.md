@@ -2,7 +2,7 @@
 
 [日本語](README.md)
 
-**▶ [Explore the visualization](https://lanni007.github.io/japonisme-universe/)**
+**▶ [Explore the visualization](https://lanni007.github.io/japonisme-universe/?lang=en)**
 
 **Terms: viewing and link sharing are welcome. Newly published project material requires prior written permission for redistribution, commercial reuse, and other reuse. Earlier MIT / CC BY 4.0 grants and third-party licenses remain valid. See [LICENSE](LICENSE).**
 
@@ -10,17 +10,22 @@ An interactive 3D network tracing how Japanese art and culture traveled overseas
 
 Open `index.html` in a browser to use the visualization. All 49 images are embedded in the HTML, and each illustrated item includes its image source, creator, and license. An internet connection is needed to load Three.js and the fonts.
 
-The interface and the descriptions inside the visualization are currently in Japanese. The guide below includes the Japanese button labels so you can find each control.
+Use **日本語 / English** at the top right to switch the interface, node descriptions, story guides, torii chapter names, and image captions. Switching languages preserves your place in the ride and your current selection. The choice is remembered when browser storage is available; `?lang=en` and `?lang=ja` links take priority. On a first visit without a language link or saved preference, Japanese-language browsers open in Japanese and other browsers open in English.
 
 ## How to explore
 
-- Switch between **宇宙** (Space), **年表** (Timeline), and **地図** (Map) to change the layout.
-- Select **物語で見る** (Explore a story) to follow connected events in sequence.
-- Select **金の幹に乗る** (Ride the golden rail) to travel through time along the yellow rail. Nine red torii gates mark the transitions between chapters.
+- Switch between **Space**, **Timeline**, and **Map** to change the layout.
+- Select **Explore stories** to follow connected events in sequence.
+- Select **Ride the golden rail** to travel through time along the yellow rail. Nine red torii gates mark the transitions between chapters.
 - The current year appears in large text at the top right. During the ride, nodes and images associated with the current century appear along the route.
 - Adjust the playback speed from **0.25× to 3.00×** with the speed slider. Adjust image size from **25% to 200%** with the image slider; images also fit automatically within the screen.
 - Select an image or a node to read its description, explore its connections, and check the image creator, license, and original source.
+- Open **Terms of use** for the project reuse conditions; earlier releases and third-party images have separate license terms.
 - On a computer, drag to pan, right-drag to rotate, and use the mouse wheel to zoom. On a touch screen, drag with one finger to pan and use two fingers to zoom and rotate.
+
+## Work in progress
+
+The content and interface are still being developed. Translations preserve the distinctions between historical evidence, widely repeated accounts, and the project's interpretations; they do not constitute a new verification of every historical claim. Corrections and better sources are welcome through Issues.
 
 ## What is included
 
@@ -63,7 +68,7 @@ This project is not affiliated with or endorsed by Yusuke Narita. He has not rev
 
 ## GitHub Pages
 
-Live site: **[Japonisme: Before and After](https://lanni007.github.io/japonisme-universe/)**
+Live site: **[Japonisme: Before and After](https://lanni007.github.io/japonisme-universe/?lang=en)**
 
 The site is published from the root of the `main` branch. After an update, allow GitHub Pages to finish deploying, then reload the page.
 

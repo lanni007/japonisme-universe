@@ -4,6 +4,8 @@
 
 **▶ [Explore the visualization](https://lanni007.github.io/japonisme-universe/)**
 
+**Terms: viewing and link sharing are welcome. Newly published project material requires prior written permission for redistribution, commercial reuse, and other reuse. Earlier MIT / CC BY 4.0 grants and third-party licenses remain valid. See [LICENSE](LICENSE).**
+
 An interactive 3D network tracing how Japanese art and culture traveled overseas, influenced artists around the world, and returned to Japan in new forms. It connects early cultural exchanges and trade through Dejima with Impressionism, Art Nouveau, and postwar film and animation.
 
 Open `index.html` in a browser to use the visualization. All 49 images are embedded in the HTML, and each illustrated item includes its image source, creator, and license. An internet connection is needed to load Three.js and the fonts.
@@ -55,8 +57,9 @@ This project is not affiliated with or endorsed by Yusuke Narita. He has not rev
 - [`README.en.md`](README.en.md): this English guide.
 - [`IMAGE-CREDITS.md`](IMAGE-CREDITS.md): the sources, creators, and licenses for all 49 images, plus references for the postwar film section.
 - [`CREDITS.md`](CREDITS.md): inspiration, reference materials, libraries, and fonts.
-- [`LICENSE`](LICENSE): the MIT License for the code.
-- [`LICENSE-DATA.md`](LICENSE-DATA.md): the CC BY 4.0 license for the data and descriptive text.
+- [`LICENSE`](LICENSE): reserved-rights terms for new material, with exceptions for earlier releases and third-party material.
+- [`LICENSE-DATA.md`](LICENSE-DATA.md): terms for new data, descriptions, and translations.
+- [`licenses/`](licenses/): the earlier MIT and CC BY 4.0 notices.
 
 ## GitHub Pages
 
@@ -66,6 +69,8 @@ The site is published from the root of the `main` branch. After an update, allow
 
 ## Licenses
 
-The code is licensed under the MIT License. The project's data and descriptive text are licensed under CC BY 4.0. External images, fonts, and libraries retain their individual licenses. See `IMAGE-CREDITS.md` and the image details inside the visualization for image attribution and reuse conditions.
+Rights are reserved in newly published project material. Viewing and sharing links are permitted; redistribution, adaptation, commercial reuse, and other reuse of the new material require prior written permission. Earlier MIT / CC BY 4.0 grants remain valid, including for those older parts included in later versions. See [LICENSE](LICENSE) and [LICENSE-DATA.md](LICENSE-DATA.md).
+
+Third-party images, fonts, and libraries retain their individual licenses. No exclusive rights are claimed over historical facts, ideas, or public-domain material. See `IMAGE-CREDITS.md` and the image details for image attribution and reuse conditions.
 
 The project was originally created with Claude, then refined through dialogue with Codex to improve its controls, display, and images.

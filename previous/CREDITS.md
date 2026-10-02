@@ -5,9 +5,9 @@
   - 本作は成田悠輔さんとは関係がなく、承認を受けたものではありません。
 
 ## 使っている素材
-- three.js r128 — MIT License（この版ではHTMLに同梱）
+- three.js r128 — MIT License（cdnjs から読み込み）
 - Shippori Mincho / Zen Kaku Gothic New — SIL Open Font License 1.1（Google Fonts から読み込み）
-- 終着点の日本地図 — Natural Earth 1:50m（Public Domain）。下記に出典を記載。
+- 世界地図の海岸線 — Natural Earth（パブリックドメイン）を簡略化して使用
 
 ## 主な参考
 - シェーンブルン宮殿 公式サイト（中国の小部屋、ヴュー・ラックの間）
@@ -21,9 +21,3 @@
 - ORICON NEWS（美輪明宏さんが2025年に映画へ寄せたメッセージ）
 
 誤りや、より良い出典があれば Issue でお知らせください。
-
-## 地域の宇宙版
-
-新しいレイアウトと履歴モデルはCodexとの対話で作成。歴史資料はREADME.mdに記載。Three.jsのMITライセンスは licenses/THREE-MIT.txt に同梱しています。
-
-終着点の日本地図: Natural Earth 1:50m, Public Domain. https://www.naturalearthdata.com/about/terms-of-use/

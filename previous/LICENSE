@@ -1,0 +1,65 @@
+Japonisme: Before and After — Reserved Rights Notice
+Copyright (c) 2026 Japonisme contributors
+
+Effective for newly published project material after commit:
+4ca670f3bd4d007ffd27a94fc7a825c4e31185e6
+Policy adopted: 2026-10-01
+
+1. Scope
+All rights are reserved in original, copyright-protected project material
+first published after the baseline commit identified above. This includes
+new code, translations, descriptions, and original expressive additions,
+to the extent the project rights holders own the relevant rights.
+
+2. Viewing and sharing links
+You may view and interact with the official website and share links to it.
+Ordinary technical copies needed for viewing are permitted. You may also
+open an unmodified copy locally solely for personal viewing.
+
+3. No permission for further reuse
+For the newly reserved material, no permission is granted to redistribute,
+rehost, adapt, sublicense, sell, or otherwise reuse the material, including
+commercial reuse, without prior written permission from the rights holders.
+Requests may be submitted through this repository's Issues. This notice is
+not an open-source license.
+
+4. Earlier permissions remain valid
+This notice does not revoke or restrict permissions already granted for
+earlier material. Code published at or before the baseline commit remains
+available under its earlier MIT License. Data and descriptions previously
+offered under CC BY 4.0 remain available under that license. Those earlier
+permissions also apply when earlier material is included in a later version.
+See licenses/LEGACY-MIT.txt and licenses/LEGACY-DATA.md. Newly reserved
+additions do not retroactively change the terms of unchanged older parts.
+
+5. Third-party material and legal exceptions
+Images, fonts, libraries, and other third-party material retain their own
+licenses. See IMAGE-CREDITS.md and CREDITS.md. This notice does not claim
+exclusive rights over public-domain material, historical facts, ideas, or
+material owned by others. Applicable copyright exceptions and rights
+provided by GitHub's platform terms are unaffected.
+
+The project is provided as is, without warranties, to the extent permitted
+by applicable law.
+
+日本語の利用条件
+
+2026年10月1日、この方針を採用しました。
+上記の基準コミットより後に初めて公開する、この作品独自の新規部分
+（新しいコード・翻訳・説明文・創作的な追加表現）は、権利者が保有する
+著作権等の範囲で、権利を留保します。
+
+公式サイトの閲覧・操作と、URLのリンク共有はできます。閲覧に必要な
+通常の技術的複製、および改変しないコピーを個人的に開いて閲覧することも
+認めます。新規部分の再配布・別サイトでの公開・改変・販売・商用利用等は、
+事前の書面による許可なしには認めません。利用の相談はリポジトリの
+Issueから行えます。本条件はオープンソースライセンスではありません。
+
+重要：過去にMITまたはCC BY 4.0で公開した部分への許可は取り消しません。
+その部分が新版に含まれていても、以前のライセンスで利用できます。
+未変更の旧部分を、今回の条件だけで商用利用不可にすることはできません。
+以前の条件は licenses/LEGACY-MIT.txt と licenses/LEGACY-DATA.md を参照してください。
+
+外部画像・フォント・ライブラリは各素材の条件を維持します。歴史的事実、
+アイデア、パブリックドメインの素材、第三者の権利を独占するものではありません。
+法律上認められる引用等やGitHubの利用規約上の権利を制限するものでもありません。

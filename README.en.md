@@ -2,26 +2,29 @@
 
 [日本語](README.md)
 
-**▶ [Explore the visualization](https://lanni007.github.io/japonisme-universe/?lang=en)**
+**▶ [Explore in 3D](https://lanni007.github.io/japonisme-universe/?lang=en) · [Compare categories](https://lanni007.github.io/japonisme-universe/timeline-lanes.html?lang=en) · [Read as cards](https://lanni007.github.io/japonisme-universe/timeline.html?lang=en) · [Previous version](https://lanni007.github.io/japonisme-universe/previous/?lang=en)**
+
+This edition includes regional 3D views and two timelines. The previous public version is preserved in previous/.
 
 **Terms: viewing and link sharing are welcome. Newly published project material requires prior written permission for redistribution, commercial reuse, and other reuse. Earlier MIT / CC BY 4.0 grants and third-party licenses remain valid. See [LICENSE](LICENSE).**
 
 An interactive 3D network tracing how Japanese art and culture traveled overseas, influenced artists around the world, and returned to Japan in new forms. It connects early cultural exchanges and trade through Dejima with Impressionism, Art Nouveau, and postwar film and animation.
 
-Open `index.html` in a browser to use the visualization. All 49 images are embedded in the HTML, and each illustrated item includes its image source, creator, and license. An internet connection is needed to load Three.js and the fonts.
+Open `index.html` for 3D or `timeline.html` for a reading view. Keep the adjacent `data/` and `images/` folders. Illustrations for 58 records are stored as WebP files. The timeline lazily loads 320px thumbnails; full images open on request. Original sources, creators and licenses remain accessible. Three.js is included; fallback fonts work offline.
 
-Use **日本語 / English** at the top right to switch the interface, node descriptions, story guides, torii chapter names, and image captions. Switching languages preserves your place in the ride and your current selection. The choice is remembered when browser storage is available; `?lang=en` and `?lang=ja` links take priority. On a first visit without a language link or saved preference, Japanese-language browsers open in Japanese and other browsers open in English.
+Use **日本語 / English** at the top right to switch the interface, node descriptions, story guides, torii chapter names, and image captions. Switching languages preserves your place in the ride and your current selection. The choice is remembered when browser storage is available; `?lang=en` and `?lang=ja` links take priority. Without a language link or saved preference, the default is Japanese.
 
 ## How to explore
 
-- Switch between **Space**, **Timeline**, and **Map** to change the layout.
+- Select **Read the timeline** for the vertical reading view, then **View in 3D** on a record to open that record in the universe.
+- Regional orbs change their names and groupings over time; registered artist movements use activity locations.
 - Select **Explore stories** to follow connected events in sequence.
 - Select **Ride the golden rail** to travel through time along the yellow rail. Nine red torii gates mark the transitions between chapters.
-- The current year appears in large text at the top right. During the ride, nodes and images associated with the current century appear along the route.
-- Adjust the playback speed from **0.25× to 3.00×** with the speed slider. Adjust image size from **25% to 200%** with the image slider; images also fit automatically within the screen.
+- The current year appears in large text at the top right. Past nodes and networks remain by default. Images appear sequentially for about four seconds. After pausing to read, select **Resume journey from [year]** to continue.
+- Adjust the playback speed from **0.25× to 3.00×** with the speed slider. Adjust image size from **60% to 160%** (or **25% to 200%** in the enlarged view) with the image slider; images also fit automatically within the screen.
 - Select an image or a node to read its description, explore its connections, and check the image creator, license, and original source.
-- Open **Terms of use** for the project reuse conditions; earlier releases and third-party images have separate license terms.
-- On a computer, drag to pan, right-drag to rotate, and use the mouse wheel to zoom. On a touch screen, drag with one finger to pan and use two fingers to zoom and rotate.
+- See [LICENSE](LICENSE) and [LICENSE-DATA.md](LICENSE-DATA.md) for terms; earlier releases and third-party images retain their terms.
+- On a computer, drag to rotate and scroll to zoom. On a touch screen, drag with one finger to rotate and pinch with two fingers to zoom.
 
 ## Work in progress
 
@@ -57,10 +60,13 @@ This project is not affiliated with or endorsed by Yusuke Narita. He has not rev
 
 ## Files
 
-- [`index.html`](index.html): the interactive visualization, provided as a static HTML file with no build step.
+- [`index.html`](index.html): the 3D visualization.
+- [`timeline.html`](timeline.html): the vertical reading view.
+- `data/`: shared records, relationships, stories, translations and image metadata.
+- `images/`: WebP illustrations, with small versions in `thumb/`.
 - [`README.md`](README.md): the Japanese guide.
 - [`README.en.md`](README.en.md): this English guide.
-- [`IMAGE-CREDITS.md`](IMAGE-CREDITS.md): the sources, creators, and licenses for all 49 images, plus references for the postwar film section.
+- [`IMAGE-CREDITS.md`](IMAGE-CREDITS.md): the sources, creators, and licenses for the illustrations for 58 records, plus references for the postwar film section.
 - [`CREDITS.md`](CREDITS.md): inspiration, reference materials, libraries, and fonts.
 - [`LICENSE`](LICENSE): reserved-rights terms for new material, with exceptions for earlier releases and third-party material.
 - [`LICENSE-DATA.md`](LICENSE-DATA.md): terms for new data, descriptions, and translations.
@@ -79,3 +85,23 @@ Rights are reserved in newly published project material. Viewing and sharing lin
 Third-party images, fonts, and libraries retain their individual licenses. No exclusive rights are claimed over historical facts, ideas, or public-domain material. See `IMAGE-CREDITS.md` and the image details for image attribution and reuse conditions.
 
 The project was originally created with Claude, then refined through dialogue with Codex to improve its controls, display, and images.
+
+## Reading the timeline
+
+The main timeline contains all 217 records. Explicit chapter membership takes priority; a record present in multiple chapters appears in the first one. Other dated records are assigned by chapter start dates, so chapter ranges overlap. Undated shared-pattern records appear at the end. Choose among 11 stories, jump to related records using labeled connections, or open a record in 3D. A connection to a hidden record switches to the main timeline before jumping. Tap an illustration to see its source, creator, license and larger image.
+
+Existing descriptions, translations and relationships are carried forward, with the scope and chapter-label revisions noted below. Both pages read the same data. Copy the whole folder when moving this edition; the previous single-file version is kept separately.
+
+## Compare categories (prototype)
+
+[timeline-lanes.html](timeline-lanes.html?lang=en) places dates vertically and roles horizontally. Its 193 dated records use six columns: external context, internal pressure, Japanese art, mediators and exhibitions, people, and styles and works. The last column, Changes in Japan, adds 15 notes drawn from existing descriptions. Later changes are labeled separately from their trigger year. Bigot and Loti are labeled Views from abroad; interpretive relationships and retrospective readings use dashed lines.
+
+The 24 undated shared patterns are available through the toolbar and supplements on related records, including when date or region filters are active. Records from the same year share a row; year spacing is unequal. Select a record to highlight its connections or isolate its neighborhood. Filter by geographic region, date or story. Historical names and documented activity places use each record’s date. On phones, scroll within the chart or jump to a column. Original descriptions and shared data are preserved. The card view remains at timeline.html, and the previous public version is preserved in previous/.
+
+## Editorial scope review
+
+Chagall, García Núñez and the Buenos Aires architecture entry are excluded from current views pending evidence of their relationship to Japanese art. This is not proof that influence never existed. The previous edition is archived separately.
+
+## This update
+
+The regional universe and golden-rail journey now include both a category timeline and a card reading view. The chapter Artists make it their own includes painting, architecture and crafts. The previous public edition is preserved in previous/ and the tag before-regional-2026-10-02 (commit b7b5bdaa6322cf19c8c5814d65a6fa6d71371eec).
